@@ -1,17 +1,56 @@
-# Excel Project Data Analytics
+## 💰 Data Jobs Salary Dashboard: Project Overview
 
-## Salary Dashboard
+This dashboard was created to help job seekers investigate data-related **salaries** for their desired roles, ensuring they are **adequately compensated** in the job market.
 
-This data jobs salary dashboard was created to help job seekers investigate salaries for their desired jobs and ensure they are being adequately compensated.
-[Checkout my work here](1_salary_dashboard)
+The project uses real-world data science job information from **2023**, sourced from an Excel course. The data includes:
 
-<img width="1375" height="605" alt="image" src="https://github.com/user-attachments/assets/938cfde1-4635-4410-bbe0-0af5ceec072f" />
+* 👨‍💼 **Job titles**
+* 💰 **Salaries**
+* 📍 **Locations**
+* 🛠️ **Skills**
+
+The final dashboard file is named: [`1_Salary_Dashboard.xlsx`](1_salary_dashboard).
+
+---
+
+### 🛠️ Core Excel Skills Utilized
+
+The analysis and dashboard construction relied on the following foundational Excel capabilities:
+
+* **📉 Charts:** Creating visualizations for trends (e.g., salary distribution).
+* **🧮 Formulas & Functions:** Performing calculations (e.g., finding the median salary).
+* **❎ Data Validation:** Controlling user input for consistent and accurate filtering.
+
+### 📊 Key Dashboard Elements and Insights
+
+#### 1. Data Science Job Salaries - Bar Chart
 
 
-## Salary Analysis
+* **Function:** Visually compares the median salaries for various job titles.
+* **Design:** Uses a horizontal bar chart, sorted by descending salary for quick comparison.
+* **Insight:** Enables the quick identification of high-paying roles, noting that **Senior roles and Engineers** generally offer higher salaries than Analyst roles.
 
-As a job seeker, I'm always surprised by the lack of data the most optimal jobs and skills in the data science set out to understand what skills top employers request and how to land more pay.
-[Checkout my work here](1_salary_analysis_data_jobs)
+#### 2. Country Median Salaries - Map Chart
 
-<img width="722" height="349" alt="image" src="https://github.com/user-attachments/assets/e038df16-74fa-4f85-af77-1bbca5d31a65" />
-<img width="653" height="375" alt="image" src="https://github.com/user-attachments/assets/995dce07-b354-4643-9562-5e0344d8dbd7" />
+
+* **Function:** Plots median salaries globally to show geographic disparities.
+* **Design:** Utilizes a color-coded map chart where color intensity represents salary levels.
+* **Insight:** Provides an immediate grasp of **global salary trends**, highlighting regions with particularly high or low compensation.
+
+#### 3. Advanced Calculation: Median Salary Formula
+
+The dashboard uses a sophisticated **array formula** (combining `MEDIAN` and `IF`) to calculate specific salary values based on multiple user criteria:
+
+* **Criteria:** Job Title, Country, Schedule Type (e.g., Full-Time, Contract).
+* **Formula Purpose:** Provides **tailored, filtered median salary information** for precise market comparisons.
+
+#### 4. Data Validation (User Filters)
+
+* **Function:** Restricts user input in filter fields (Job Title, Country, Type) to only valid, predefined options.
+* **Benefit:** **Prevents incorrect entries** and significantly enhances the dashboard's overall usability and data integrity.
+
+---
+
+### ✅ Summary
+
+This project successfully showcases salary trends across various data job titles by leveraging fundamental Excel features. By exploring its functionalities, users can make **informed career decisions** based on the influence of factors like location and job type on potential earnings.
