@@ -1,4 +1,4 @@
-# Excel_Project-Data_Analytics
+# Excel Project Data Analytics
 
 ## Salary Dashboard
 
