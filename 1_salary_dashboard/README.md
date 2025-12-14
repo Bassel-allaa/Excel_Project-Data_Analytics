@@ -9,8 +9,6 @@ The project uses real-world data science job information from **2023**, sourced 
 * 📍 **Locations**
 * 🛠️ **Skills**
 
-The final dashboard file is named: [`1_Salary_Dashboard.xlsx`](1_salary_dashboard).
-
 ---
 
 ### 🛠️ Core Excel Skills Utilized
