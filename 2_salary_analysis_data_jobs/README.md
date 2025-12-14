@@ -1,6 +1,6 @@
 ## 🔍 Data Science Job Market Analysis
 
-As a former job seeker, this project was undertaken to **analyze the data science job market** to understand which skills are most valued by top employers and how professionals can maximize their pay.
+As a job seeker, this project was undertaken to **analyze the data science job market** to understand which skills are most valued by top employers and how professionals can maximize their pay.
 
 The analysis uses a dataset of **2023 real-world data science job postings** from an Excel course, including details on:
 
